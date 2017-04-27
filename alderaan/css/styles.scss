@@ -1,0 +1,62 @@
+/**************************************************************/
+/******************  THEME STYLING ALDERAAN *******************/
+/*******************   by Corey Sizemore   ********************/
+/*******************     version 1.0       ********************/
+/**************************************************************/
+
+/**** colors ****/
+
+/* body */
+
+$background: #ffffff;
+$primary: #95B8BF;
+$accent: #1E3A3F;
+$transparent: transparent;
+$transblack: rgba(0,0,0,.5);
+
+/* search */
+$searchbg: rgba(0,0,0,.9);
+
+/* nav_bar */
+
+$nav_bar_bg: #ffffff;
+$nav_bar_bg_scroll: #ffffff;
+$nav_bar_border: rgba(255,255,255,0.25);
+
+/* main */
+$colored_bg: #fafafa;
+
+/* footer */
+$footer_background: #1b1d1f;
+$copyright_background: #141618;
+$footer_link_border: rgba(255,255,255,.25);
+
+/* fonts */
+
+$primary_font: 'Poppins', sans-serif;
+$secondary_font: 'Hind', sans-serif;
+$primary_weight: 300;
+$primary_size: 16px;
+$bold_weight: 500;
+$light_font: #ffffff;
+$dark_font: #303133;
+$gray_font: #777777;
+
+/* cornerstone framework */
+@import 'cornerstone/cornerstone_v3.1';
+
+/* features, mixins */
+
+@import 'cornerstone/mixins';
+@import 'cornerstone/features';
+
+/* theme */
+
+@import 'theme';
+
+/* media queries */
+
+@import 'responsive/tab_landscape';
+@import 'responsive/tab_portrait';
+@import 'responsive/mob_landscape';
+@import 'responsive/mob_portrait';

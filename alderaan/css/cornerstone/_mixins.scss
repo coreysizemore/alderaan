@@ -1,0 +1,33 @@
+@mixin border_radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin background_clip($value) {
+	-webkit-background-clip: $value;
+	-moz-background-clip: $value;
+	-ms-background-clip: $value;
+	background-clip: $value;
+}
+
+@mixin transition($time) {
+	-webkit-transition: all $time linear;
+	-moz-transition: all $time linear;
+	-ms-transition: all $time linear;
+	transition: all $time linear;
+}
+
+@mixin transform_skewy($deg) {
+	-webkit-transform: skewY($deg);
+	-moz-transform: skewY($deg);
+	-ms-transform: skewY($deg);
+	transform: skewY($deg);
+}
+
+@mixin appearance($value) {
+   -webkit-appearance: $value;
+   -moz-appearance: $value;
+   appearance: $value;
+}

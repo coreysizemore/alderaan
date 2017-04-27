@@ -1,0 +1,146 @@
+/*
+	
+Theme Name: Alderaan
+Theme URI: http://www.coreysizemore.com
+Description:  Website theme by http://www.coreysizemore.com.
+Author: Corey Sizemore
+Author URI: http://www.coreysizemore.com
+Description: Website theme by http://www.coreysizemore.com.
+Version: 1.0.0
+Text Domain:  alderaan
+*/
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.content .alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.content .alignnone.size-full {
+	width: 100%;
+	height: auto;
+}
+
+.content .aligncenter,
+.content div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.content img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.content img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.content a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.content a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.content a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.content a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.content .wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.content .wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.content .wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.content .wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.content .wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.content blockquote p {
+	background: #eaeaea;
+	display: block;
+	padding: 20px;
+}
+
+.content img.wp-post-image {
+	height: auto;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	.content .alignright,
+	.content .alignleft,
+	.content a img.alignright,
+	.content a img.alignnone,
+	.content a img.alignleft {
+	    width: 50%;
+	    height: auto;
+	}
+	
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	
+	.content .alignright,
+	.content .alignleft,
+	.content a img.alignright,
+	.content a img.alignnone,
+	.content a img.alignleft {
+	    width: 50%;
+	    height: auto;
+	}
+	
+}
+
+@media (min-width: 0px) and (max-width: 479px) {
+	
+	.content img.alignright,
+	.content img.alignleft,
+	.content a img.alignright,
+	.content a img.alignnone,
+	.content a img.alignleft {
+	    width: 50%;
+	    height: auto;
+	}
+	
+}

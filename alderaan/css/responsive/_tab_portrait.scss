@@ -1,0 +1,159 @@
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	/* header */
+	header {
+		height: 500px;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	header.home_default_image {
+		background: url('../img/home_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	header.header_home {
+		display: none;
+	}
+	
+	header.header_mobile_home {
+		display: block;
+	}
+	
+	header.header_page.page_default_image {
+		background: url('../img/home_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	header.header_page {
+		background-size: 100%;
+		background-attachment: fixed;
+		height: 300px;
+		
+		#page_title {
+			
+			h1.heading {
+				padding-top: 100px;
+			}
+			
+			h2.subheading {
+				width: 300px;
+			}
+		}
+	}
+	
+	header.header_page.header_page_home {
+		display: none;
+	}
+	
+	header.header_page.header_page_mobile {
+		display: block;
+	}
+	
+	/* home page logo */
+
+	#home_logo {
+		margin-top: 100px;
+		margin-left: -200px;
+		top: 0%;
+		width: 400px;
+		
+		#logo_home {
+			margin-bottom: 10px;
+			
+			img {
+				width: 400px;
+			}
+		}
+	}
+	
+	/* search */
+	
+	#searchopen {
+		display: none;
+	}
+	
+	/* nav bar */
+	
+	#nav_bar {
+		display: none;
+	}
+	
+	/* mobile nav */
+	
+	a#mobileopen:link,
+	a#mobileopen:visited,
+	a#mobileclose:link,
+	a#mobileclose:visited {
+		display: block;
+	}
+	
+	/* content */
+	
+	.content.callout {
+		p {
+			margin-bottom: 60px;
+		}
+	}
+	
+	.content {
+		form {
+			margin-bottom: 60px;
+		}
+	}
+	
+	#resources {
+	
+		.resources_wrapper {
+			width: calc(50% - 10px);
+		}
+	}
+	
+	/* search */
+	
+	#page_searchform {
+		
+		input[type="text"] {
+			width: 250px;
+		}
+	}
+	
+	/* blog */
+	
+	article.blog_preview {
+		display: block;
+		width: calc(50% - 20px);
+	}
+	
+	.blog_sidebars {
+		margin-bottom: 60px;
+	}
+	
+	/* parralax */
+	
+	.parallax {
+		display: none;
+	}
+	
+	/* appointment */
+	
+	.appointment {
+		
+		p {
+			width: 500px;
+		}
+	}
+	
+	/* footer */
+	
+	.footer_sidebar {
+		margin-bottom: 60px;
+	}
+	
+	#footer_sidebar_4.footer_sidebar {
+		margin-bottom: 0px;
+	}
+	
+}

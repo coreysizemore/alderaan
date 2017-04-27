@@ -1,0 +1,154 @@
+/* accordion */
+
+#accordion {
+	
+	h3 {
+		background: url('cornerstone/features/arrow_right.png') no-repeat;
+		background-position: right center;
+		background-size: 18px 18px;
+		border-top: 1px solid $primary;
+		color: $dark_font;
+		display: block;
+		cursor: pointer;
+		font-family: $secondary_font;
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 2px;
+		padding: 25px 0;
+		text-transform: uppercase;
+		@include transition(.1s);
+	}
+		
+	h3:first-child {
+		border-top: none;
+	}
+		
+	h3:hover, h3.ui-state-active {
+		color: $primary;
+		background: url('cornerstone/features/arrow_down.png') no-repeat;
+		background-position: right center;
+		background-size: 18px 18px;
+	}
+		
+	div.ui-accordion-content p {
+		color: $gray_font;
+		font-size: 16px;
+		line-height: 30px;
+	}
+	
+	div.ui-accordion-content p:last-child {
+		padding-bottom: 50px;
+	}
+	
+	div.ui-accordion-content {
+		a:link,
+		a:visited {
+			color: $primary;
+			font-weight: 500;
+			text-decoration: none;
+			@include transition(.1s);
+		}
+		
+		a:hover,
+		a:active {
+			opacity: .5;
+		}
+		
+		strong {
+			font-weight: 500;
+		}
+		
+		em {
+			font-style: italic;
+		}
+	}
+		
+	:focus,:active {
+		outline: 0;
+	}
+	
+}
+
+/* horizontal tabs */
+
+#tabs {
+	
+	ul {
+		border-bottom: 1px solid $primary;
+		margin: 0 0 25px 0;
+		
+		li {
+			display: inline-block;
+			
+			a:link,a:visited {
+				color: $dark_font;
+				display: block;
+				font-family: $secondary_font;
+				font-size: 16px;
+				font-weight: 500;
+				letter-spacing: 2px;
+				margin-right: 20px;
+				padding: 25px 0;
+				text-decoration: none;
+				text-transform: uppercase;
+				@include transition(.1s);
+			}
+			
+			a:hover,a:active {
+				color: $primary;
+			}
+		}
+		
+		li.ui-tabs-active {
+			a:link,
+			a:visited {
+				color: $primary;
+				border-bottom: 1px solid $primary;
+				@include transition(.1s);
+			}
+			
+			a:hover,
+			a:active {
+				opacity: .5;
+			}
+		}
+	}
+	
+	div.ui-tabs-panel p {
+		color: $gray_font;
+		font-size: 16px;
+		line-height: 30px;
+	}
+	
+	div.ui-tabs-panel p:last-child {
+		margin-bottom: 20px;
+	}
+	
+	div.ui-tabs-panel {
+		
+		strong {
+			font-weight: 500;
+		}
+		
+		em {
+			font-style: italic;
+		}
+		
+		a:link,
+		a:visited {
+			color: $primary;
+			font-weight: 500;
+			text-decoration: none;
+			@include transition(.15s);
+		}
+		
+		a:hover,
+		a:active {
+			opacity: .5;
+		}
+	}
+	
+	:focus,:active {
+		outline: 0;
+	}
+}
