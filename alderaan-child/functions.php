@@ -2,7 +2,7 @@
 	
 	/*
 		@package WordPress
-		@subpackage New Blank Template
+		@subpackage alderaan-child
 	*/
 	
 	require_once locate_template('/lib/child.php');

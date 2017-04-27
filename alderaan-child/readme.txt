@@ -1,4 +1,4 @@
-Alderaan Theme
+Alderaan Theme Child
 http://www.coreysizemore.com/
 
 by Corey Sizemore Design & Development

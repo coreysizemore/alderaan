@@ -2,7 +2,7 @@
 	
 	/*
 		@package WordPress
-		@subpackage New Blank Template
+		@subpackage alderaan-child
 	*/
 	 
 ?>
