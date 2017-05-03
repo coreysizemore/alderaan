@@ -42,7 +42,7 @@
 	
 	<?php endif; ?>
 	
-	<link rel="stylesheet" href= "<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css">
+<!-- 	<link rel="stylesheet" href= "<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css"> -->
 
 	<?php wp_head(); ?>   
 	     
