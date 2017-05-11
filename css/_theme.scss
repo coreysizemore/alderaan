@@ -430,6 +430,16 @@ header.header_page.header_page_mobile {
 			}
 		}
 		
+		li.menu-item-has-children {
+			& > a:link,
+			& > a:visited {
+				background: url('cornerstone/features/light_arrow_down.png') no-repeat;
+				background-position: right center;
+				background-size: 18px 18px;
+				padding-right: 20px;
+			}
+		}
+		
 		li:last-child {
 			padding-right: 0px;
 		}
