@@ -227,6 +227,6 @@
 
 <?php else : ?>
 
-	You need to drag a widget into your sidebar in the WordPress Admin
+	<p>You need to drag a widget into your sidebar in the WordPress Admin.</p>
 	
 <?php endif; ?>

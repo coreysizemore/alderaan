@@ -36,6 +36,8 @@
 	
 	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/css/styles.css">
 	
+	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/fancybox/fancybox.css">
+	
 	<?php if( get_field('layout_use_colors', 'options')): ?>
 	
 		<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/css/colors.css">

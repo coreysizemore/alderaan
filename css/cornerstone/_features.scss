@@ -1,5 +1,60 @@
 /* accordion */
 
+#gallery {
+	
+	.gallery_wrapper {
+		display: inline-block;
+		width: calc(25% - 20px);
+		height: 150px;
+		margin: 0px 10px 20px 10px;
+		overflow: hidden;
+		
+		a:link,
+		a:visited {
+			display: block;
+			height: 100%;
+			position: relative;
+			width: 100%;
+			
+			.filter {
+				background: $transparent;
+				display: block;
+				height: 100%;
+				position: absolute;
+				width: 100%;
+				@include transition(.15s);
+				
+				.icon {
+					color: $light_font;
+					display: block;
+					line-height: 150px;
+					opacity: 0;
+					text-align: center;
+					@include transition(.15s);
+				}
+			}
+			
+			.filter:hover {
+				background: $transblack;
+				
+				.icon {
+					opacity: 1;
+				}
+			}
+			
+			img {
+				display: block;
+				height: auto;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.default_editor + .container #gallery {
+	margin-top: 50px;
+}
+
 #accordion {
 	
 	h3 {
@@ -67,6 +122,10 @@
 		outline: 0;
 	}
 	
+}
+
+.default_editor + .container #accordion {
+	margin-top: 50px;
 }
 
 /* horizontal tabs */
@@ -151,4 +210,42 @@
 	:focus,:active {
 		outline: 0;
 	}
+}
+
+.default_editor + .container #tabs {
+	margin-top: 50px;
+}
+
+@media (min-width: 980px) and (max-width: 1220px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	#gallery {
+		.gallery_wrapper {
+			width: calc(50% - 20px);	
+		}
+	}
+	
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	
+	#gallery {
+		.gallery_wrapper {
+			width: calc(50% - 20px);	
+		}
+	}
+	
+}
+
+@media (min-width: 0px) and (max-width: 479px) {
+	
+	#gallery {
+		.gallery_wrapper {
+			width: calc(100% - 20px);	
+		}
+	}
+	
 }

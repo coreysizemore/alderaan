@@ -11,6 +11,10 @@ $(document).ready(function() {
 		verticalOffset: 0
 	});
 	
+	/* fancybox */
+	
+	$('.fancybox').fancybox();
+	
 	/* sticky navigation */
 	
 	$('#nav_bar').scrollFix({

@@ -9,11 +9,11 @@
 	
 <?php get_template_part( 'sidebars/sidebar' , 'announcement' ); ?>
 
-<div class="main">
+<div class="main <?php echo basename(get_permalink()); ?>">
 
 	<?php if( get_field('default_editor')): ?>
 	
-		<div class="<?php echo basename(get_permalink()); ?>">
+		<div class="default_editor">
 		
 			<div class="container">
 					

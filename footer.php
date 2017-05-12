@@ -48,6 +48,8 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/stellar.min.js"></script>
 	
 <script src="<?php echo get_template_directory_uri(); ?>/js/scrollfix.min.js"></script>
+
+<script src="<?php echo get_template_directory_uri(); ?>/fancybox/fancybox.min.js"></script>
 	
 <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.min.js"></script>
 
