@@ -21,7 +21,7 @@
 							
 					if( get_sub_field('social_url', 'options')):
 										
-						echo '<li><a href="tel:';
+						echo '<li><a href="';
 											
 						the_sub_field('social_url', 'options');
 											
