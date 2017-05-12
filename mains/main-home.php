@@ -81,11 +81,15 @@
 	
 	<?php endif; ?>
 	
-	<div class="edit_button">
+	<?php if(is_user_logged_in()):?>
 	
-		<span class="edit"><?php edit_post_link(); ?></span>
+		<div class="edit_button">
+		
+			<span class="edit"><?php edit_post_link(); ?></span>
+		
+		</div>
 	
-	</div>
+	<?php endif; ?>
 
 </div>
 
