@@ -32,6 +32,8 @@ $(document).ready(function() {
 	$( "ul[class*='social_info'] li a[href*='yelp']" ).empty().append( '<span class="icon icon-yelp"></span>' ).addClass('yelp');
 	$( "ul[class*='social_info'] li a[href*='linkedin']" ).empty().append( '<span class="icon icon-linkedin"></span>' ).addClass('linkedin');
 	$( "ul[class*='social_info'] li a[href*='#search']" ).empty().append( '<span class="icon icon-search"></span>' ).addClass('linkedin');
+	$( "ul[class*='social_info'] li a[href*='github']" ).empty().append( '<span class="icon icon-github"></span>' ).addClass('github');
+	$( "ul[class*='social_info'] li a[href*='codepen']" ).empty().append( '<span class="icon icon-codepen"></span>' ).addClass('codepen');
 	
 	$( "ul[class*='contact'] li a[href*='tel:']" ).prepend( '<span class="icon icon-phone"></span>' );
 	$( "ul[class*='contact'] li a[href*='mailto:']" ).prepend( '<span class="icon icon-mail"></span>' );
