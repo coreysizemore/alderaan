@@ -57,7 +57,7 @@
 
 #accordion {
 	
-	h3 {
+	& > h3 {
 		background: url('cornerstone/features/arrow_right.png') no-repeat;
 		background-position: right center;
 		background-size: 18px 18px;
@@ -74,57 +74,19 @@
 		@include transition(.1s);
 	}
 		
-	h3:first-child {
+	& > h3:first-child {
 		border-top: none;
 	}
 		
-	h3:hover, h3.ui-state-active {
+	& > h3:hover, & > h3.ui-state-active {
 		color: $primary;
 		background: url('cornerstone/features/arrow_down.png') no-repeat;
 		background-position: right center;
 		background-size: 18px 18px;
 	}
-		
-	div.ui-accordion-content p {
-		color: $gray_font;
-		font-size: 16px;
-		line-height: 30px;
-	}
 	
 	div.ui-accordion-content p:last-child {
 		padding-bottom: 50px;
-	}
-	
-	div.ui-accordion-content {
-		
-		h1,h2,h3,h4 {
-			font-size: 20px;
-			font-weight: 500;
-			letter-spacing: -1px;
-		    line-height: 32px;
-		    margin-bottom: 10px;
-		}
-		
-		a:link,
-		a:visited {
-			color: $primary;
-			font-weight: 500;
-			text-decoration: none;
-			@include transition(.1s);
-		}
-		
-		a:hover,
-		a:active {
-			opacity: .5;
-		}
-		
-		strong {
-			font-weight: 500;
-		}
-		
-		em {
-			font-style: italic;
-		}
 	}
 		
 	:focus,:active {
@@ -141,7 +103,7 @@
 
 #tabs {
 	
-	ul {
+	& > ul {
 		border-bottom: 1px solid $primary;
 		margin: 0 0 25px 0;
 		
@@ -182,46 +144,8 @@
 		}
 	}
 	
-	div.ui-tabs-panel p {
-		color: $gray_font;
-		font-size: 16px;
-		line-height: 30px;
-	}
-	
 	div.ui-tabs-panel p:last-child {
 		margin-bottom: 20px;
-	}
-	
-	div.ui-tabs-panel {
-		
-		h1,h2,h3,h4 {
-			font-size: 20px;
-			font-weight: 500;
-			letter-spacing: -1px;
-		    line-height: 32px;
-		    margin-bottom: 10px;
-		}
-		
-		strong {
-			font-weight: 500;
-		}
-		
-		em {
-			font-style: italic;
-		}
-		
-		a:link,
-		a:visited {
-			color: $primary;
-			font-weight: 500;
-			text-decoration: none;
-			@include transition(.15s);
-		}
-		
-		a:hover,
-		a:active {
-			opacity: .5;
-		}
 	}
 	
 	:focus,:active {
@@ -232,6 +156,136 @@
 .default_editor + .container #tabs {
 	margin-top: 50px;
 }
+
+
+/* form styling */
+
+.content {
+
+	form {
+		
+		ul {
+			margin-left: 0px;
+			
+			li {
+				list-style: none;
+			}
+		}
+	
+		label {
+			color: $primary;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		
+		input[type="text"],
+		input[type="email"],
+		input[type="number"],
+		input[type="submit"],
+		input[type="password"],
+		textarea,
+		select {
+			background: $background;
+			border: 1px solid $primary;
+			color: $dark_font;
+			font-size: 14px;
+			margin-top: 10px;
+			padding: 10px 15px;
+			width: calc(100% - 30px);
+			@include border-radius(2px);
+			@include appearance(none);
+		}
+		
+		select {
+			width: 100%;
+		}
+		
+		input + label,
+		select + label,
+		textarea + label {
+			color: $gray_font;
+			font-size: 12px;
+		}
+		
+		input[type="submit"] {
+			background: $primary;
+			color: $light_font;
+			cursor: pointer;
+			font-family: $secondary_font;
+			letter-spacing: 2px;
+			line-height: 22px;
+			text-transform: uppercase;
+			width: 200px;
+			@include transition(.1s);
+		}
+		
+		input[type="submit"]:hover {
+			opacity: .5;
+		}
+		
+		input:focus,
+		textarea:focus {
+		    outline: none;
+		    border: 1px solid $primary;
+		}
+		
+		::-webkit-input-placeholder {
+			color: $light_font;
+			font-weight: 300;
+			opacity: .5;
+		}
+		
+		::-moz-placeholder {
+			color: $light_font;
+			font-weight: 300;
+			opacity: .5;
+		}
+		
+		:-ms-input-placeholder {
+			color: $light_font;
+			font-weight: 300;
+			opacity: .5;
+		}
+		
+		:-moz-placeholder {
+			color: $light_font;
+			font-weight: 300;
+			opacity: .5;
+		}
+	}
+}
+
+/* gravity forms specific */
+
+.content {
+	
+	form {
+		
+		span.gform_description {
+			color: $gray_font;
+			display: inline-block;
+			margin-bottom: 20px;
+		}
+		
+		ul.gform_fields {
+		
+			li {
+				margin-bottom: 20px;
+				
+				span.name_first,
+				span.name_last {
+					display: inline-block;
+					width: 422px;
+				}
+				
+				span.name_first {
+					margin-right: 10px;
+				}
+			}	
+		}
+	}
+}
+
 
 @media (min-width: 980px) and (max-width: 1220px) {
 

@@ -7,6 +7,12 @@
 	 
 ?>
 
+<?php if( get_field('display_search', 'options')): ?>
+
+	<?php get_search_form(); ?>
+
+<?php endif; ?>
+
 <?php
 	
 	if( get_field('member_login_bar', 'options') ):
@@ -54,12 +60,6 @@
 	endif;
 		 
 ?>
-
-<?php if( get_field('display_search', 'options')): ?>
-
-	<?php get_search_form(); ?>
-
-<?php endif; ?>
 
 <?php
 	
@@ -158,6 +158,8 @@
 	<?php endif; ?>
 	
 </header>
+
+
 
 
 <?php

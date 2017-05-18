@@ -375,7 +375,7 @@ header.header_page.header_page_mobile {
 				color: $light_font;
 				display: block;
 				font-family: $secondary_font;
-				font-size: .8em;
+				font-size: 13px;
 				font-weight: 600;
 				letter-spacing: 2px;
 				padding: 44px 0;
@@ -406,7 +406,6 @@ header.header_page.header_page_mobile {
 					width: 100%;
 					
 					a:link,a:visited {
-						
 						color: $light_font;
   						display: block;
   						padding: 10px 20px;
@@ -499,6 +498,9 @@ header.header_page.header_page_mobile {
 				li {
 					a:link,a:visited {
 						color: $light_font;
+						display: block;
+  						padding: 10px 20px;
+  						width: 100%;
 					}
 				}
 			}
@@ -1165,122 +1167,6 @@ hr.pagebreak {
 					}
 				}
 			}
-		}
-	}
-}
-
-
-/* form styling */
-
-.content {
-
-	form {
-		
-		ul {
-			margin-left: 0px;
-			
-			li {
-				list-style: none;
-			}
-		}
-	
-		label {
-			color: $primary;
-			font-size: 14px;
-			font-weight: 400;
-		}
-		
-		input[type="text"],
-		input[type="email"],
-		input[type="number"],
-		input[type="submit"],
-		input[type="password"],
-		textarea {
-			background: $background;
-			border: 1px solid $primary;
-			color: $dark_font;
-			font-size: 14px;
-			padding: 10px 15px;
-			width: calc(100% - 30px);
-			@include border-radius(2px);
-			@include appearance(none);
-		}
-		
-		input[type="submit"] {
-			background: $primary;
-			color: $light_font;
-			cursor: pointer;
-			font-family: $secondary_font;
-			letter-spacing: 2px;
-			line-height: 22px;
-			text-transform: uppercase;
-			width: 200px;
-			@include transition(.1s);
-		}
-		
-		input[type="submit"]:hover {
-			opacity: .5;
-		}
-		
-		input:focus,
-		textarea:focus {
-		    outline: none;
-		    border: 1px solid $primary;
-		}
-		
-		::-webkit-input-placeholder {
-			color: $light_font;
-			font-weight: 300;
-			opacity: .5;
-		}
-		
-		::-moz-placeholder {
-			color: $light_font;
-			font-weight: 300;
-			opacity: .5;
-		}
-		
-		:-ms-input-placeholder {
-			color: $light_font;
-			font-weight: 300;
-			opacity: .5;
-		}
-		
-		:-moz-placeholder {
-			color: $light_font;
-			font-weight: 300;
-			opacity: .5;
-		}
-	}
-}
-
-/* gravity forms specific */
-
-.content {
-	
-	form {
-		
-		span.gform_description {
-			color: $gray_font;
-			display: inline-block;
-			margin-bottom: 20px;
-		}
-		
-		ul.gform_fields {
-		
-			li {
-				margin-bottom: 20px;
-				
-				span.name_first,
-				span.name_last {
-					display: inline-block;
-					width: 422px;
-				}
-				
-				span.name_first {
-					margin-right: 10px;
-				}
-			}	
 		}
 	}
 }

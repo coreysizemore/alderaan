@@ -99,7 +99,7 @@
 	
 		if( have_rows('accordion_content') ):
 		
-			echo '<div class="main"><div class="container"><div class="row gutters"><div class="col_12"><div id="accordion">';
+			echo '<div class="main"><div class="container"><div class="row gutters"><div class="col_12"><div id="accordion" class="content">';
 					
 			while ( have_rows('accordion_content') ) : the_row();
 					        
@@ -133,7 +133,7 @@
 	
 		if( have_rows('tabs_content') ):
 		
-			echo '<div class="main"><div class="container"><div class="row gutters"><div class="col_12"><div id="tabs">';
+			echo '<div class="main"><div class="container"><div class="row gutters"><div class="col_12"><div id="tabs" class="content">';
 				
 			echo '<ul>';
 					
