@@ -47,7 +47,8 @@
 		#accordion div.ui-accordion-content a:link, #accordion div.ui-accordion-content a:visited,
 		#tabs ul li.ui-tabs-active a:link, #tabs ul li.ui-tabs-active a:visited,
 		#tabs div.ui-tabs-panel a:link, #tabs div.ui-tabs-panel a:visited,
-		#tabs ul li a:hover, #tabs ul li a:active {
+		#tabs ul li a:hover, #tabs ul li a:active,
+		#loginbar .username span a:link, #loginbar .username span a:visited {
 			color: <?php the_field('layout_primary_color', 'options');?>;
 		}
 		

@@ -56,6 +56,14 @@ body {
 	}
 }
 
+
+/* disable page scroll */
+
+.disablepagescroll {
+	overflow: hidden;
+}
+
+
 /* search */
 
 a#searchopen:link,
@@ -427,6 +435,18 @@ header.header_page.header_page_mobile {
 			a:link,a:visited {
 				opacity: .5;
 			}
+			
+			& > ul.sub-menu {
+				li {
+					a:link,a:visited {
+						opacity: 1;
+					}
+					
+					a:hover,a:active {
+						opacity: .5;
+					}
+				}
+			}
 		}
 		
 		li.menu-item-has-children {
@@ -505,6 +525,16 @@ header.header_page.header_page_mobile {
 				}
 			}
 		}
+		
+		li.menu-item-has-children {
+			& > a:link,
+			& > a:visited {
+				background: url('cornerstone/features/arrow_down.png') no-repeat;
+				background-position: right center;
+				background-size: 18px 18px;
+				padding-right: 20px;
+			}
+		}
 	}
 }
 
@@ -557,99 +587,110 @@ a#mobileclose:visited {
 	width: 100%;
 	z-index: 4;
 	
-	.menu-primary-container {
-		margin-top: 50px;
-		
-		ul {
-			li {
-				padding: 5px 0;
-				
-				a:link,a:visited {
-					color: $light_font;
-					font-family: $primary_font;
-					font-size: 24px;
-					font-weight: 400;
-					text-decoration: none;
-				}
-				
-				ul {
-					display: none;
-				}
-			}
-		}
-	}
+	.mobile_nav_wrapper {
+		height: 100%;
+		overflow-y: auto;
 	
-	#social_nav {
-		ul {
-			margin-top: 40px;
+		.menu-primary-container {
+			margin-top: 50px;
 			
-			li {
-				display: inline-block;
-				
-				a:link,a:visited {
-					color: $light_font;
-					font-size: 18px;
-					padding: 0 10px;
-					text-decoration: none;
+			ul {
+				li {
+					padding: 5px 0;
+					
+					a:link,a:visited {
+						color: $light_font;
+						font-family: $primary_font;
+						font-size: 24px;
+						font-weight: 400;
+						text-decoration: none;
+					}
+					
+					ul.sub-menu {
+						margin-top: 10px;
+						
+						li {
+							a:link,a:visited {
+								font-size: 18px;
+							}
+						}
+					}
 				}
 			}
 		}
-	}
-	
-	#mobile_search {
-		margin-top: 20px;
 		
-		input[type="text"] {
-			background: $transparent;
-			border: none;
-			color: $light_font;
-			font-size: 16px;
-			vertical-align: middle;
-			width: 180px;
-		}
-		
-		input[type="submit"] {
-			background: $transparent;
-			border: 1px solid $light_font;
-			color: $light_font;
-			cursor: pointer;
-			display: inline-block;
-			font-family: $primary_font;
-			font-size: 16px;
-			font-weight: 300;
-			padding: 0px 15px;
-			@include border-radius(5px);
-			@include appearance(none);
-			@include transition(.1s);
+		#social_nav {
+			ul {
+				margin: 40px 0px;
+				
+				li {
+					display: inline-block;
+					
+					a:link,a:visited {
+						color: $light_font;
+						font-size: 18px;
+						padding: 0 10px;
+						text-decoration: none;
+					}
+				}
+			}
 		}
 		
-		input[type="submit"]:hover {
-			opacity: .5;
-		}
-		
-		input:focus{
-		    outline: none;
-		}
-		
-		::-webkit-input-placeholder {
-		  	color: $light_font;
-		  	font-weight: 300;
-		  	opacity: .5;
-		}
-		::-moz-placeholder {
-		  	color: $light_font;
-		  	font-weight: 300;
-		  	opacity: .5;
-		}
-		:-ms-input-placeholder {
-		  	color: $light_font;
-		  	font-weight: 300;
-		  	opacity: .5;
-		}
-		:-moz-placeholder {
-		  	color: $light_font;
-		  	font-weight: 300;
-		  	opacity: .5;
+		#mobile_search {
+			margin-top: 20px;
+			
+			input[type="text"] {
+				background: $transparent;
+				border: none;
+				color: $light_font;
+				font-size: 16px;
+				vertical-align: middle;
+				width: 180px;
+			}
+			
+			input[type="submit"] {
+				background: $transparent;
+				border: 1px solid $light_font;
+				color: $light_font;
+				cursor: pointer;
+				display: inline-block;
+				font-family: $primary_font;
+				font-size: 16px;
+				font-weight: 300;
+				padding: 0px 15px;
+				@include border-radius(5px);
+				@include appearance(none);
+				@include transition(.1s);
+			}
+			
+			input[type="submit"]:hover {
+				opacity: .5;
+			}
+			
+			input:focus{
+			    outline: none;
+			}
+			
+			::-webkit-input-placeholder {
+			  	color: $light_font;
+			  	font-weight: 300;
+			  	opacity: .5;
+			}
+			::-moz-placeholder {
+			  	color: $light_font;
+			  	font-weight: 300;
+			  	opacity: .5;
+			}
+			:-ms-input-placeholder {
+			  	color: $light_font;
+			  	font-weight: 300;
+			  	opacity: .5;
+			}
+			:-moz-placeholder {
+			  	color: $light_font;
+			  	font-weight: 300;
+			  	opacity: .5;
+			}
 		}
 	}
 }

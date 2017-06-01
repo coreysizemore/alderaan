@@ -11,26 +11,30 @@
 
 <nav id="mobile_nav">
 	
-	<a href="#" id="mobileclose"><span class="icon icon-close"></span></a>
+	<div class="mobile_nav_wrapper">
 	
-	<nav id="main_nav">
-	
-		<?php wp_nav_menu( array( 'theme_location' => 'primary_nav' ) ); ?>
+		<a href="#" id="mobileclose"><span class="icon icon-close"></span></a>
 		
-	</nav>
-	
-	<div id="mobile_search">
+		<nav id="main_nav">
 		
-		<form method="get" id="searchform" action="<?php bloginfo('url'); ?>">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary_nav' ) ); ?>
+			
+		</nav>
+		
+		<div id="mobile_search">
+			
+			<form method="get" id="searchform" action="<?php bloginfo('url'); ?>">
+						
+				<input placeholder="Search the website." class="text" type="text" name="s" id="s" />
 					
-			<input placeholder="Search the website." class="text" type="text" name="s" id="s" />
+				<input type="submit" class="submit button" name="submit" value="<?php _e('Search');?>" />
 				
-			<input type="submit" class="submit button" name="submit" value="<?php _e('Search');?>" />
-			
-		</form>
-			
-	</div>
+			</form>
+				
+		</div>
+		
+		<?php get_template_part( 'navs/nav', 'social-mobile' ); ?>
 	
-	<?php get_template_part( 'navs/nav', 'social-mobile' ); ?>
+	</div>
 	
 </nav>

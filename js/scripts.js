@@ -47,18 +47,22 @@ $(document).ready(function() {
 	
 	$('a#searchopen').click( function() { 
 	    $('#search').slideToggle();
+	    $('body').addClass('disablepagescroll');
 	});
 	
 	$('a#searchclose').click( function() { 
 	    $('#search').slideToggle();
+	    $('body').removeClass('disablepagescroll');
 	});
 	
 	$('a#mobileopen').click( function() { 
 	    $('#mobile_nav').slideToggle();
+	    $('body').addClass('disablepagescroll');
 	});
 	
 	$('a#mobileclose').click( function() { 
 	    $('#mobile_nav').slideToggle();
+	    $('body').removeClass('disablepagescroll');
 	});
 	
 	/* jquery functionality */
