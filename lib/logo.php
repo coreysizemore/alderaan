@@ -76,7 +76,7 @@
 		$wp_customize4->add_setting( 'themeslug_logo_4' );
 		
 		$wp_customize4->add_control( new WP_Customize_Image_Control( $wp_customize4, 'themeslug_logo_4', array(
-		    'label'    => __( 'Logo Home Page', 'themeslug4' ),
+		    'label'    => __( 'Logo Footer', 'themeslug4' ),
 		    'section'  => 'themeslug_logo_section_4',
 		    'settings' => 'themeslug_logo_4',
 		) ) );

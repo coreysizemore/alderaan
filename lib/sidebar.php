@@ -15,7 +15,7 @@
 	));
 	
 	register_sidebar(array(
-	  'name' => 'Announcement (Optional)',
+	  'name' => 'Attention Box 1',
 	  'id' => 'announcement-sidebar',
 	  'description' => 'Widgets in this area will be shown in the sidebar.',
 	  'before_widget' => '<div id="%1$s">',
@@ -35,7 +35,7 @@
 	));
 	
 	register_sidebar(array(
-	  'name' => 'Appointment (Optional)',
+	  'name' => 'Attention Box 2',
 	  'id' => 'appointment-sidebar',
 	  'description' => 'Widgets in this area will be shown in the sidebar.',
 	  'before_widget' => '<div id="%1$s">',
@@ -57,16 +57,6 @@
 	register_sidebar(array(
 	  'name' => 'Blog Page Section 2',
 	  'id' => 'blog-sidebar-2',
-	  'description' => 'Widgets in this area will be shown in the sidebar.',
-	  'before_widget' => '<div id="%1$s">',
-	  'after_widget'  => '</div>',  
-	  'before_title' => '<h3>',
-	  'after_title' => '</h3>'
-	));
-	
-	register_sidebar(array(
-	  'name' => 'Contact Page',
-	  'id' => 'contact-sidebar',
 	  'description' => 'Widgets in this area will be shown in the sidebar.',
 	  'before_widget' => '<div id="%1$s">',
 	  'after_widget'  => '</div>',  
