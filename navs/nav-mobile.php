@@ -34,6 +34,8 @@
 		</div>
 		
 		<?php get_template_part( 'navs/nav', 'social-mobile' ); ?>
+		
+		<div class="bottom_spacing"></div>
 	
 	</div>
 	
