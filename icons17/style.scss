@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icons17';
-  src:  url('#{$icomoon-font-path}/icons17.eot?z638ac');
-  src:  url('#{$icomoon-font-path}/icons17.eot?z638ac#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icons17.ttf?z638ac') format('truetype'),
-    url('#{$icomoon-font-path}/icons17.woff?z638ac') format('woff'),
-    url('#{$icomoon-font-path}/icons17.svg?z638ac#icons17') format('svg');
+  src:  url('#{$icomoon-font-path}/icons17.eot?2tsb38');
+  src:  url('#{$icomoon-font-path}/icons17.eot?2tsb38#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icons17.ttf?2tsb38') format('truetype'),
+    url('#{$icomoon-font-path}/icons17.woff?2tsb38') format('woff'),
+    url('#{$icomoon-font-path}/icons17.svg?2tsb38#icons17') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,179 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-expand {
+.icon-snapchat {
   &:before {
-    content: $icon-expand;
-  }
-}
-.icon-search {
-  &:before {
-    content: $icon-search;
-  }
-}
-.icon-eye {
-  &:before {
-    content: $icon-eye;
-  }
-}
-.icon-camera {
-  &:before {
-    content: $icon-camera;
-  }
-}
-.icon-location {
-  &:before {
-    content: $icon-location;
-  }
-}
-.icon-quotes-left {
-  &:before {
-    content: $icon-quotes-left;
-  }
-}
-.icon-quotes-right {
-  &:before {
-    content: $icon-quotes-right;
-  }
-}
-.icon-numbered-list {
-  &:before {
-    content: $icon-numbered-list;
-  }
-}
-.icon-square-list {
-  &:before {
-    content: $icon-square-list;
-  }
-}
-.icon-circle-list {
-  &:before {
-    content: $icon-circle-list;
-  }
-}
-.icon-menu {
-  &:before {
-    content: $icon-menu;
-  }
-}
-.icon-eye3 {
-  &:before {
-    content: $icon-eye3;
-  }
-}
-.icon-share {
-  &:before {
-    content: $icon-share;
-  }
-}
-.icon-googleplus {
-  &:before {
-    content: $icon-googleplus;
-  }
-}
-.icon-facebook {
-  &:before {
-    content: $icon-facebook;
-  }
-}
-.icon-instagram {
-  &:before {
-    content: $icon-instagram;
-  }
-}
-.icon-twitter {
-  &:before {
-    content: $icon-twitter;
-  }
-}
-.icon-rss {
-  &:before {
-    content: $icon-rss;
-  }
-}
-.icon-youtube {
-  &:before {
-    content: $icon-youtube;
-  }
-}
-.icon-vimeo {
-  &:before {
-    content: $icon-vimeo;
-  }
-}
-.icon-tumblr {
-  &:before {
-    content: $icon-tumblr;
-  }
-}
-.icon-linkedin {
-  &:before {
-    content: $icon-linkedin;
-  }
-}
-.icon-pinterest {
-  &:before {
-    content: $icon-pinterest;
-  }
-}
-.icon-yelp {
-  &:before {
-    content: $icon-yelp;
-  }
-}
-.icon-spoon-knife {
-  &:before {
-    content: $icon-spoon-knife;
-  }
-}
-.icon-github {
-  &:before {
-    content: $icon-github;
-  }
-}
-.icon-codepen {
-  &:before {
-    content: $icon-codepen;
-  }
-}
-.icon-mouse {
-  &:before {
-    content: $icon-mouse;
-  }
-}
-.icon-search-light {
-  &:before {
-    content: $icon-search-light;
-  }
-}
-.icon-sunglasses {
-  &:before {
-    content: $icon-sunglasses;
-  }
-}
-.icon-calendar {
-  &:before {
-    content: $icon-calendar;
-  }
-}
-.icon-keyboard_arrow_up {
-  &:before {
-    content: $icon-keyboard_arrow_up;
-  }
-}
-.icon-keyboard_arrow_right {
-  &:before {
-    content: $icon-keyboard_arrow_right;
-  }
-}
-.icon-keyboard_arrow_left {
-  &:before {
-    content: $icon-keyboard_arrow_left;
-  }
-}
-.icon-keyboard_arrow_down {
-  &:before {
-    content: $icon-keyboard_arrow_down;
+    content: $icon-snapchat;
   }
 }
 .icon-user {
@@ -359,6 +189,186 @@
 .icon-creditcard {
   &:before {
     content: $icon-creditcard;
+  }
+}
+.icon-mouse {
+  &:before {
+    content: $icon-mouse;
+  }
+}
+.icon-search-light {
+  &:before {
+    content: $icon-search-light;
+  }
+}
+.icon-sunglasses {
+  &:before {
+    content: $icon-sunglasses;
+  }
+}
+.icon-calendar {
+  &:before {
+    content: $icon-calendar;
+  }
+}
+.icon-keyboard_arrow_up {
+  &:before {
+    content: $icon-keyboard_arrow_up;
+  }
+}
+.icon-keyboard_arrow_right {
+  &:before {
+    content: $icon-keyboard_arrow_right;
+  }
+}
+.icon-keyboard_arrow_left {
+  &:before {
+    content: $icon-keyboard_arrow_left;
+  }
+}
+.icon-keyboard_arrow_down {
+  &:before {
+    content: $icon-keyboard_arrow_down;
+  }
+}
+.icon-expand {
+  &:before {
+    content: $icon-expand;
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search;
+  }
+}
+.icon-eye {
+  &:before {
+    content: $icon-eye;
+  }
+}
+.icon-camera {
+  &:before {
+    content: $icon-camera;
+  }
+}
+.icon-location {
+  &:before {
+    content: $icon-location;
+  }
+}
+.icon-quotes-left {
+  &:before {
+    content: $icon-quotes-left;
+  }
+}
+.icon-quotes-right {
+  &:before {
+    content: $icon-quotes-right;
+  }
+}
+.icon-numbered-list {
+  &:before {
+    content: $icon-numbered-list;
+  }
+}
+.icon-square-list {
+  &:before {
+    content: $icon-square-list;
+  }
+}
+.icon-circle-list {
+  &:before {
+    content: $icon-circle-list;
+  }
+}
+.icon-menu {
+  &:before {
+    content: $icon-menu;
+  }
+}
+.icon-eye3 {
+  &:before {
+    content: $icon-eye3;
+  }
+}
+.icon-share {
+  &:before {
+    content: $icon-share;
+  }
+}
+.icon-googleplus {
+  &:before {
+    content: $icon-googleplus;
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook;
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram;
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;
+  }
+}
+.icon-rss {
+  &:before {
+    content: $icon-rss;
+  }
+}
+.icon-youtube {
+  &:before {
+    content: $icon-youtube;
+  }
+}
+.icon-vimeo {
+  &:before {
+    content: $icon-vimeo;
+  }
+}
+.icon-tumblr {
+  &:before {
+    content: $icon-tumblr;
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin;
+  }
+}
+.icon-pinterest {
+  &:before {
+    content: $icon-pinterest;
+  }
+}
+.icon-yelp {
+  &:before {
+    content: $icon-yelp;
+  }
+}
+.icon-spoon-knife {
+  &:before {
+    content: $icon-spoon-knife;
+  }
+}
+.icon-github {
+  &:before {
+    content: $icon-github;
+  }
+}
+.icon-codepen {
+  &:before {
+    content: $icon-codepen;
+  }
+}
+.icon-flickr {
+  &:before {
+    content: $icon-flickr;
   }
 }
 
