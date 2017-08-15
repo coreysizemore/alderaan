@@ -2,7 +2,7 @@
 	
 	/*
 		@package WordPress
-		@subpackage alderaan
+		@subpackage hoth
 	*/
 
 	require_once locate_template('/lib/page_title.php');
