@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icons17';
-  src:  url('#{$icomoon-font-path}/icons17.eot?2tsb38');
-  src:  url('#{$icomoon-font-path}/icons17.eot?2tsb38#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icons17.ttf?2tsb38') format('truetype'),
-    url('#{$icomoon-font-path}/icons17.woff?2tsb38') format('woff'),
-    url('#{$icomoon-font-path}/icons17.svg?2tsb38#icons17') format('svg');
+  src:  url('#{$icomoon-font-path}/icons17.eot?w2ugad');
+  src:  url('#{$icomoon-font-path}/icons17.eot?w2ugad#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icons17.ttf?w2ugad') format('truetype'),
+    url('#{$icomoon-font-path}/icons17.woff?w2ugad') format('woff'),
+    url('#{$icomoon-font-path}/icons17.svg?w2ugad#icons17') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,169 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-snapchat {
+.icon-tools {
   &:before {
-    content: $icon-snapchat;
-  }
-}
-.icon-user {
-  &:before {
-    content: $icon-user;
-  }
-}
-.icon-check {
-  &:before {
-    content: $icon-check;
-  }
-}
-.icon-close {
-  &:before {
-    content: $icon-close;
-  }
-}
-.icon-blog {
-  &:before {
-    content: $icon-blog;
-  }
-}
-.icon-arrow-left {
-  &:before {
-    content: $icon-arrow-left;
-  }
-}
-.icon-arrow-right {
-  &:before {
-    content: $icon-arrow-right;
-  }
-}
-.icon-plus {
-  &:before {
-    content: $icon-plus;
-  }
-}
-.icon-asterisk {
-  &:before {
-    content: $icon-asterisk;
-  }
-}
-.icon-eye2 {
-  &:before {
-    content: $icon-eye2;
-  }
-}
-.icon-arrow-up {
-  &:before {
-    content: $icon-arrow-up;
-  }
-}
-.icon-arrow-down {
-  &:before {
-    content: $icon-arrow-down;
-  }
-}
-.icon-cart {
-  &:before {
-    content: $icon-cart;
-  }
-}
-.icon-settings {
-  &:before {
-    content: $icon-settings;
-  }
-}
-.icon-phone {
-  &:before {
-    content: $icon-phone;
-  }
-}
-.icon-users {
-  &:before {
-    content: $icon-users;
-  }
-}
-.icon-mail {
-  &:before {
-    content: $icon-mail;
-  }
-}
-.icon-blurb {
-  &:before {
-    content: $icon-blurb;
-  }
-}
-.icon-download {
-  &:before {
-    content: $icon-download;
-  }
-}
-.icon-upload {
-  &:before {
-    content: $icon-upload;
-  }
-}
-.icon-doctor {
-  &:before {
-    content: $icon-doctor;
-  }
-}
-.icon-stethoscope {
-  &:before {
-    content: $icon-stethoscope;
-  }
-}
-.icon-desktop {
-  &:before {
-    content: $icon-desktop;
-  }
-}
-.icon-laptop {
-  &:before {
-    content: $icon-laptop;
-  }
-}
-.icon-tablet {
-  &:before {
-    content: $icon-tablet;
-  }
-}
-.icon-mobile {
-  &:before {
-    content: $icon-mobile;
-  }
-}
-.icon-file {
-  &:before {
-    content: $icon-file;
-  }
-}
-.icon-pdf {
-  &:before {
-    content: $icon-pdf;
-  }
-}
-.icon-visa {
-  &:before {
-    content: $icon-visa;
-  }
-}
-.icon-mastercard {
-  &:before {
-    content: $icon-mastercard;
-  }
-}
-.icon-discover {
-  &:before {
-    content: $icon-discover;
-  }
-}
-.icon-americanexpress {
-  &:before {
-    content: $icon-americanexpress;
-  }
-}
-.icon-creditcard {
-  &:before {
-    content: $icon-creditcard;
+    content: $icon-tools;
   }
 }
 .icon-mouse {
@@ -369,6 +209,176 @@
 .icon-flickr {
   &:before {
     content: $icon-flickr;
+  }
+}
+.icon-snapchat {
+  &:before {
+    content: $icon-snapchat;
+  }
+}
+.icon-user {
+  &:before {
+    content: $icon-user;
+  }
+}
+.icon-check {
+  &:before {
+    content: $icon-check;
+  }
+}
+.icon-close {
+  &:before {
+    content: $icon-close;
+  }
+}
+.icon-blog {
+  &:before {
+    content: $icon-blog;
+  }
+}
+.icon-arrow-left {
+  &:before {
+    content: $icon-arrow-left;
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right;
+  }
+}
+.icon-plus {
+  &:before {
+    content: $icon-plus;
+  }
+}
+.icon-asterisk {
+  &:before {
+    content: $icon-asterisk;
+  }
+}
+.icon-eye2 {
+  &:before {
+    content: $icon-eye2;
+  }
+}
+.icon-arrow-up {
+  &:before {
+    content: $icon-arrow-up;
+  }
+}
+.icon-arrow-down {
+  &:before {
+    content: $icon-arrow-down;
+  }
+}
+.icon-cart {
+  &:before {
+    content: $icon-cart;
+  }
+}
+.icon-settings {
+  &:before {
+    content: $icon-settings;
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
+.icon-users {
+  &:before {
+    content: $icon-users;
+  }
+}
+.icon-mail {
+  &:before {
+    content: $icon-mail;
+  }
+}
+.icon-blurb {
+  &:before {
+    content: $icon-blurb;
+  }
+}
+.icon-download {
+  &:before {
+    content: $icon-download;
+  }
+}
+.icon-upload {
+  &:before {
+    content: $icon-upload;
+  }
+}
+.icon-doctor {
+  &:before {
+    content: $icon-doctor;
+  }
+}
+.icon-stethoscope {
+  &:before {
+    content: $icon-stethoscope;
+  }
+}
+.icon-desktop {
+  &:before {
+    content: $icon-desktop;
+  }
+}
+.icon-laptop {
+  &:before {
+    content: $icon-laptop;
+  }
+}
+.icon-tablet {
+  &:before {
+    content: $icon-tablet;
+  }
+}
+.icon-mobile {
+  &:before {
+    content: $icon-mobile;
+  }
+}
+.icon-file {
+  &:before {
+    content: $icon-file;
+  }
+}
+.icon-pdf {
+  &:before {
+    content: $icon-pdf;
+  }
+}
+.icon-visa {
+  &:before {
+    content: $icon-visa;
+  }
+}
+.icon-mastercard {
+  &:before {
+    content: $icon-mastercard;
+  }
+}
+.icon-discover {
+  &:before {
+    content: $icon-discover;
+  }
+}
+.icon-americanexpress {
+  &:before {
+    content: $icon-americanexpress;
+  }
+}
+.icon-creditcard {
+  &:before {
+    content: $icon-creditcard;
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home;
   }
 }
 
