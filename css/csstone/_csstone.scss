@@ -1,7 +1,7 @@
 /**************************************************************/
 /*******************   CSSTONE FRAMEWORK   ********************/
 /*******************   by Corey Sizemore   ********************/
-/*******************     version 1.1       ********************/
+/*******************     version 1.2       ********************/
 /**************************************************************/
 
 @import 'reset';
@@ -101,71 +101,71 @@
 			.col_2,
 			.col_1 {
 				float: left;
-				margin-left: 10px;
-				margin-right: 10px;
+				margin-left: 20px;
+				margin-right: 20px;
 				padding: 0;
 			}
 		}
 		
 		&.gutters {
 			.col_12 {
-				width: 98.3%;
-				width: calc(100% - 20px);
+				width: 96.7%;
+				width: calc(100% - 40px);
 			}
 			
 			.col_11 {
-				width: 90%;
-				width: calc(91.6666666666666666% - 20px);
+				width: 88.33%;
+				width: calc(91.6666666666666666% - 40px);
 			}
 			
 			.col_10 {
-				width: 81.6%;
-				width: calc(83.3333333333333333% - 20px);
+				width: 80%;
+				width: calc(83.3333333333333333% - 40px);
 			}
 			
 			.col_9 {
-				width: 73.3%;
-				width: calc(75% - 20px);
+				width: 71.66%;
+				width: calc(75% - 40px);
 			}
 			
 			.col_8 {
-				width: 64.9%;
-				width: calc(66.6666666666666666% - 20px);
+				width: 63.33%;
+				width: calc(66.6666666666666666% - 40px);
 			}
 			
 			.col_7 {
-				width: 56.6%;
-				width: calc(58.3333333333333333% - 20px);
+				width: 55%;
+				width: calc(58.3333333333333333% - 40px);
 			}
 			
 			.col_6 {
-				width: 48.3%;
-				width: calc(50% - 20px);
+				width: 46.66%;
+				width: calc(50% - 40px);
 			}
 			
 			.col_5 {
 				width: 39.9%;
-				width: calc(41.6666666666666666% - 20px);
+				width: calc(41.6666666666666666% - 40px);
 			}
 			
 			.col_4 {
-				width: 31.6%;
-				width: calc(33.3333333333333333% - 20px);
+				width: 30%;
+				width: calc(33.3333333333333333% - 40px);
 			}
 			
 			.col_3 {
-				width: 23.3%;
-				width: calc(25% - 20px);
+				width: 21.66%;
+				width: calc(25% - 40px);
 			}
 			
 			.col_2 {
-				width: 15%;
-				width: calc(16.6666666666666666% - 20px);
+				width: 13.33%;
+				width: calc(16.6666666666666666% - 40px);
 			}
 			
 			.col_1 {
-				width: 6.6%;
-				width: calc(08.3333333333333333% - 20px);
+				width: 5%;
+				width: calc(08.3333333333333333% - 40px);
 			}
 		}
 	}
@@ -330,43 +330,43 @@ screen widths:
 			
 			.col_12.inline {
 				float: left;
-				width: 98.3%;
+				width: 96.7%;
 				width: calc(100% - 40px);
 			}
 			
 			.col_11.inline {
 				float: left;
-				width: 90%;
+				width: 88.33%;
 				width: calc(91.6666666666666666% - 40px);
 			}
 			
 			.col_10.inline {
 				float: left;
-				width: 81.6%;
+				width: 80%;
 				width: calc(83.3333333333333333% - 40px);
 			}
 			
 			.col_9.inline {
 				float: left;
-				width: 73.3%;
+				width: 71.66%;
 				width: calc(75% - 20px);
 			}
 			
 			.col_8.inline {
 				float: left;
-				width: 64.9%;
+				width: 63.33%;
 				width: calc(66.6666666666666666% - 40px);
 			}
 			
 			.col_7.inline {
 				float: left;
-				width: 56.6%;
+				width: 55%;
 				width: calc(58.3333333333333333% - 40px);
 			}
 			
 			.col_6.inline {
 				float: left;
-				width: 48.3%;
+				width: 46.66%;
 				width: calc(50% - 40px);
 			}
 			
@@ -378,25 +378,25 @@ screen widths:
 			
 			.col_4.inline {
 				float: left;
-				width: 31.6%;
+				width: 30%;
 				width: calc(33.3333333333333333% - 40px);
 			}
 			
 			.col_3.inline {
 				float: left;
-				width: 23.3%;
+				width: 21.66%;
 				width: calc(25% - 40px);
 			}
 			
 			.col_2.inline {
 				float: left;
-				width: 15%;
+				width: 13.33%;
 				width: calc(16.6666666666666666% - 40px);
 			}
 			
 			.col_1.inline {
 				float: left;
-				width: 6.6%;
+				width: 5%;
 				width: calc(08.3333333333333333% - 40px);
 			}
 		}
@@ -504,43 +504,43 @@ screen widths:
 			
 			.col_12.inline {
 				float: left;
-				width: 98.3%;
+				width: 96.7%;
 				width: calc(100% - 40px);
 			}
 			
 			.col_11.inline {
 				float: left;
-				width: 90%;
+				width: 88.33%;
 				width: calc(91.6666666666666666% - 40px);
 			}
 			
 			.col_10.inline {
 				float: left;
-				width: 81.6%;
+				width: 80%;
 				width: calc(83.3333333333333333% - 40px);
 			}
 			
 			.col_9.inline {
 				float: left;
-				width: 73.3%;
+				width: 71.66%;
 				width: calc(75% - 20px);
 			}
 			
 			.col_8.inline {
 				float: left;
-				width: 64.9%;
+				width: 63.33%;
 				width: calc(66.6666666666666666% - 40px);
 			}
 			
 			.col_7.inline {
 				float: left;
-				width: 56.6%;
+				width: 55%;
 				width: calc(58.3333333333333333% - 40px);
 			}
 			
 			.col_6.inline {
 				float: left;
-				width: 48.3%;
+				width: 46.66%;
 				width: calc(50% - 40px);
 			}
 			
@@ -552,25 +552,25 @@ screen widths:
 			
 			.col_4.inline {
 				float: left;
-				width: 31.6%;
+				width: 30%;
 				width: calc(33.3333333333333333% - 40px);
 			}
 			
 			.col_3.inline {
 				float: left;
-				width: 23.3%;
+				width: 21.66%;
 				width: calc(25% - 40px);
 			}
 			
 			.col_2.inline {
 				float: left;
-				width: 15%;
+				width: 13.33%;
 				width: calc(16.6666666666666666% - 40px);
 			}
 			
 			.col_1.inline {
 				float: left;
-				width: 6.6%;
+				width: 5%;
 				width: calc(08.3333333333333333% - 40px);
 			}
 		}
