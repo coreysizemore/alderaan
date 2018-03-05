@@ -77,6 +77,10 @@ $(document).ready(function() {
   
 	$( "#tabs" ).tabs();
 	
+	/* slideshow */
+	
+	$('#slideshow_wrapper').slideShow(6000);
+	
 });
 
 
@@ -86,4 +90,18 @@ $.stellar.positionProperty.transfade = {
 	    var rate = $(window).height() / 5.5;
 		element.css('transform', 'translate3d(0, ' + distance + 'px, 0').css('opacity', 1 - (distance / rate));
 	}
+};
+
+$.fn.slideShow = function(timeOut) {
+	
+	var $elem = this;
+		
+	this.children(':gt(0)').hide();
+		
+	setInterval(function() {
+			
+		$elem.children().eq(0).fadeOut().next().fadeIn().end().appendTo($elem);
+	
+	}, timeOut || 3000);
+	
 };
