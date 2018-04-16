@@ -13,7 +13,13 @@ $(document).ready(function() {
 	
 	/* fancybox */
 	
-	$('.fancybox').fancybox();
+	$('.fancybox').fancybox({
+		helpers: {
+		    overlay: {
+		      locked: false
+		    }
+		  }
+	});
 	
 	/* sticky navigation */
 	

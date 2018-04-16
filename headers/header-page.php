@@ -56,23 +56,7 @@
 		 
 ?>
 
-<?php
-	
-	if( has_post_thumbnail() ):
-	
-		echo '<header class="header_page header_page_home ' . basename(get_permalink()) . '" data-stellar-background-ratio="0.9" style="background-image: url('; 
-				
-		the_post_thumbnail_url( 'full' );
-		
-		echo ');">';
-		
-	else :
-	
-		echo '<header class="header_page header_page_home page_default_image ' . basename(get_permalink()) . '" data-stellar-background-ratio="0.9">';		
-	
-	endif;
-	
-?>
+<header class="header_page header_page_home page_default_image <?php basename(get_permalink()); ?>" data-stellar-background-ratio="0.9">
 	
 	<?php get_template_part( 'sidebars/sidebar' , 'contact-information' ); ?>
 	
@@ -117,31 +101,7 @@
 	
 </header>
 
-<?php
-	
-	if( get_field('mobile_header_image') ):
-	
-		echo '<header class="header_page header_page_mobile ' . basename(get_permalink()) . '" style="background-image: url('; 
-				
-		the_field('mobile_header_image');
-		
-		echo ');">';
-	
-	elseif( has_post_thumbnail() ):
-	
-		echo '<header class="header_page header_page_mobile ' . basename(get_permalink()) . '" style="background-image: url('; 
-				
-		the_post_thumbnail_url( 'full' );
-		
-		echo ');">';
-		
-	else :
-	
-		echo '<header class="header_page header_page_mobile page_default_image ' . basename(get_permalink()) . '">';	
-	
-	endif;
-	
-?>
+<header class="header_page header_page_mobile page_default_image <?php basename(get_permalink()); ?>">
 	
 	<?php get_template_part( 'navs/nav', 'mobile' ); ?>
 	
